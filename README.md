@@ -6,7 +6,7 @@ The main function, `spm\_auto\_reorient.m`, automatically (but approximately) ri
 
 
 The tool can be included in the batching system of SPM12 by 
-- adding the `spm\_cfg\_autoreorient.m` function in to the spm\config sub-directory. Then this module can be included in any processing pipeline;
+- adding the `spm\_auto\_reorient.m` function in to the spm\config sub-directory. Then this module can be included in any processing pipeline;
 - overwriting the `spm\_cfg.m` with this one, so that the module appears in the SPM\spatial pull-down menu.
 See the 'help', for all the details and various options.
 
@@ -18,3 +18,5 @@ The code was originally written by Carlton Chu (FIL, UCL, London, UK) then modif
 For questions or suggestions, contact Christophe Phillips (c.phillips_at_ulg.ac.be).
 
 [![DOI](https://zenodo.org/badge/46079046.svg)](https://zenodo.org/badge/latestdoi/46079046)
+
+my opinion: in addition, the spm\_auto\_reorient.m should be moved in spm\_auto\_reorient.m. and, the spm\_cfg.m do not need to rewrite, just change one word is ok. oh, don't forget to add 'end' in the end of a function.
