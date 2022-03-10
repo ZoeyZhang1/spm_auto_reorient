@@ -19,4 +19,3 @@ For questions or suggestions, contact Christophe Phillips (c.phillips_at_ulg.ac.
 
 [![DOI](https://zenodo.org/badge/46079046.svg)](https://zenodo.org/badge/latestdoi/46079046)
 
-my opinion: in addition, the spm\_auto\_reorient.m should be moved in spm\_auto\_reorient.m. and, the spm\_cfg.m do not need to rewrite, just change one word is ok. oh, don't forget to add 'end' in the end of a function.
